@@ -2,7 +2,7 @@
 
 A simple color palette
 
-_Each color name or hexcode is 4 bytes or less_
+_Each color name or hexcode is 4 bytes_
 
 See it [here](//chrisnager.github.io/palette).
 
