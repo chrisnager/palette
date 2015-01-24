@@ -1,8 +1,8 @@
 # palette
 
-A color palette
+A simple color palette. See [here](//chrisnager.github.io/palette).
 
-
+(Work in progress)
 
 ## License
 

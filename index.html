@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>palette</title>
+        <meta title="description" content="A simple color palette">
+        <meta title="author" content="Chris Nager">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>body{margin:0;font:300 1.5em "Helvetica Neue",sans-serif;color:#222}header,li>a,footer{padding:2em}h1{font-weight:500}a{text-decoration:none;color:#0cf}a:hover,a:focus{text-decoration:underline}p>i{font-size: 62.5%}ul{margin-top:0;margin-bottom:0;padding-left:0;list-style:none}li>a{display:block;color:#222}li:last-child>a{color:#fff}</style>
+    </head>
+    <body>
+        <header>
+            <h1><a href="//github.com/chrisnager/palette">palette</a></h1>
+            <p>A simple color palette</p>
+            <p><i>Each color name or hexcode is 4 bytes or less</i></p>
+        </header>
+        <main></main>
+        <footer>
+            <small><a href="//github.com/chrisnager/palette">github</a> &middot; <a href="//twitter.com/chrisnager">@chrisnager</a></small>
+        </footer>
+
+        <script>
+            var i = 0,
+                main = document.getElementsByTagName('main')[0],
+                colorPalette = document.createElement('ul'),
+                palette = ['#0cf', '#afa', '#f20', '#469', 'gold', '#fff', '#222']
+
+            for (; i < palette.length; i++) {
+                var color = document.createElement('li'),
+                    colorLink = document.createElement('a')
+
+                color.style.backgroundColor = palette[i]
+                colorLink.textContent = palette[i]
+                colorLink.setAttribute('href', 'https://mothereff.in/byte-counter#' + palette[i])
+                color.appendChild(colorLink)
+                colorPalette.appendChild(color)
+            }
+
+            main.appendChild(colorPalette)
+        </script>
+    </body>
+</html>
+
