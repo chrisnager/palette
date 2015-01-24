@@ -1,10 +1,8 @@
 # [palette](//chrisnager.github.io/palette)
 
-A simple color palette
+A simple color palette. See [here](//chrisnager.github.io/palette).
 
 _Each color name or hexcode is 4 bytes_
-
-See it [here](//chrisnager.github.io/palette).
 
 (Work in progress)
 
