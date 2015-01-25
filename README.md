@@ -4,8 +4,6 @@ A simple color palette. See [here](//chrisnager.github.io/palette).
 
 _Each color name or hexcode is 4 bytes_
 
-(Work in progress)
-
 ## License
 
 The MIT License (MIT)

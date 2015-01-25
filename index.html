@@ -6,7 +6,7 @@
         <meta title="description" content="A simple color palette">
         <meta title="author" content="Chris Nager">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <style>body{margin:0;font:300 1.5em "Helvetica Neue",sans-serif;color:#222}header,li>a,footer{padding:2em}h1{font-weight:500}a{text-decoration:none;color:#0cf}a:hover,a:focus{text-decoration:underline}p>i{font-size: 62.5%}ul{margin-top:0;margin-bottom:0;padding-left:0;list-style:none}li>a{display:block;color:#222}li:last-child>a{color:#fff}</style>
+        <style>body{margin:0;font:300 1.5em "Helvetica Neue",sans-serif;color:#114}header,li>a,footer{padding:2em}h1{font-weight:500}a{text-decoration:none;color:#0cf}a:hover,a:focus{text-decoration:underline}p>i{font-size: 62.5%}ul{margin-top:0;margin-bottom:0;padding-left:0;list-style:none}li>a{display:block;color:#222}</style>
     </head>
     <body>
         <header>
@@ -23,15 +23,19 @@
             var i = 0,
                 main = document.getElementsByTagName('main')[0],
                 colorPalette = document.createElement('ul'),
-                palette = ['#0cf', '#afa', '#f20', '#469', 'gold', '#fff', '#222']
+                palette = ['#0cf', '#afa', '#114', '#f43', 'gold', '#f06', '#fff', 'gray', '#222']
 
             for (; i < palette.length; i++) {
                 var color = document.createElement('li'),
-                    colorLink = document.createElement('a')
+                    colorLink = document.createElement('a'),
+                    colorCode = document.createElement('code')
 
                 color.style.backgroundColor = palette[i]
-                colorLink.textContent = palette[i]
+                colorLink.style.color = palette[i - 1]
                 colorLink.setAttribute('href', 'https://mothereff.in/byte-counter#' + palette[i])
+                colorCode.textContent = palette[i]
+
+                colorLink.appendChild(colorCode)
                 color.appendChild(colorLink)
                 colorPalette.appendChild(color)
             }
