@@ -1,10 +1,10 @@
-# [palette](//chrisnager.github.io/palette)
+# [palette](//chrisnager.github.io/simple-palette)
 
-A simple color palette. See [here](//chrisnager.github.io/palette).
+A simple color palette. See [here](//chrisnager.github.io/simple-palette).
 
 _Each color name or hexcode is 4 bytes_
 
-![A simple color palette](../gh-pages/palette.png)
+![A simple color palette](../gh-pages/simple-palette.png)
 
 ## License
 
