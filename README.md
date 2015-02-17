@@ -4,7 +4,7 @@ A simple color palette. See [here](//chrisnager.github.io/palette).
 
 _Each color name or hexcode is 4 bytes_
 
-![A simple color palette](//raw.githubusercontent.com/chrisnager/palette/gh-pages/palette.png)
+![A simple color palette](../gh-pages/palette.png)
 
 ## License
 
