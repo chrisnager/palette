@@ -1,10 +1,12 @@
-# [palette](//chrisnager.github.io/simple-palette)
+# [simple-palette](//chrisnager.github.io/simple-palette)
 
 A simple color palette. See [here](//chrisnager.github.io/simple-palette).
 
 _Each color name or hexcode is 4 bytes_
 
 ![A simple color palette](../gh-pages/simple-palette.png)
+
+`$ npm install simple-palette --save`
 
 ## License
 
