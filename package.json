@@ -1,6 +1,6 @@
 {
-  "name": "palette",
-  "version": "1.0.0",
+  "name": "simple-palette",
+  "version": "1.0.1",
   "description": "A simple color palette",
   "main": "palette.json",
   "scripts": {
