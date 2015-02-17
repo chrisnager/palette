@@ -1,0 +1,25 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "A simple color palette",
+  "main": "palette.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisnager/palette.git"
+  },
+  "keywords": [
+    "palette",
+    "color",
+    "colors",
+    "simple"
+  ],
+  "author": "Chris Nager <cnager@gmail.com> (http://chrisnager.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisnager/palette/issues"
+  },
+  "homepage": "http://chrisnager.github.io/palette"
+}
